@@ -1,0 +1,44 @@
+form {
+  width: 50%; /* set the width of the form */
+  margin: 0 auto; /* center the form */
+  padding: 20px; /* add some padding */
+  background-color: #f5f5f5; /* set a background color */
+  border-radius: 10px; /* add rounded corners */
+}
+
+h2 {
+  text-align: center; /* center the text */
+  margin-bottom: 20px; /* add some margin at the bottom */
+}
+
+label {
+  display: block; /* display labels as block elements */
+  margin-bottom: 10px; /* add some margin at the bottom */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%; /* set the width of the input fields */
+  padding: 12px 20px; /* add some padding */
+  margin: 8px 0; /* add some margin */
+  box-sizing: border-box; /* include padding and border in the total width */
+  border: 1px solid #ccc; /* add a border */
+  border-radius: 4px; /* add rounded corners */
+}
+
+input[type="submit"] {
+  width: 100%; /* set the width of the submit button */
+  background-color: #4CAF50; /* set the background color */
+  color: white; /* set the text color */
+  padding: 14px 20px; /* add some padding */
+  margin: 8px 0; /* add some margin */
+  border: none; /* remove the border */
+  border-radius: 4px; /* add rounded corners */
+  cursor: pointer; /* change the cursor to a pointer */
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* change the background color on hover */
+}
